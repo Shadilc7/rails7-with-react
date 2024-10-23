@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { createRoot } from 'react-dom/client';
+import QuestionList from './QuestionList';
 
 const Welcome = () => {
   return(
     <div className='container'>
       <h1>Hello World !!!!</h1>
-      <p>Hai</p>
+      <p className='lead'>Hai</p>
+      < QuestionList/>
     </div>
   )
 
